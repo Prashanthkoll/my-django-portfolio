@@ -1,0 +1,14 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<div class="container">
+    <div class="section">
+        <h1>{{record.title}}</h1>
+        <ul>
+            {% for item in record.Info %}
+                <li>{{ item.point }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endblock content %}

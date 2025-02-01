@@ -1,0 +1,33 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore environment files
+.env
+venv/
+env/
+*.sqlite3
+
+# Ignore Django migrations (optional)
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Ignore logs and temporary files
+*.log
+*.pot
+*.pyc
+*.swp
+db.sqlite3
+media/
+staticfiles/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.swp
+.DS_Store
+
+# Ignore Git-related files
+.gitignore

@@ -1,0 +1,21 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<div class="container">
+    <div class="section">
+        <h1>Skills</h1>
+            <div class="skills">
+                <div class="skill"><a href="{% url 'read' 1 %}">Python</a></div>
+                <div class="skill"><a href="{% url 'read' 2  %}">SQL</a></div>
+                <div class="skill"><a href="{% url 'read' 3 %}">Java and C</a></div>
+            </div>
+            <h1>Web Technologies</h1>
+            <div class="skills">
+                <div class="skill"><a href="{% url 'read' 4 %}">HTML</a></div>
+                <div class="skill"><a href="{% url 'read' 5 %}">CSS</a></div>
+                <div class="skill"><a href="{% url 'read' 6 %}">JavaScript</a></div>
+                <div class="skill"><a href="{% url 'read' 7 %}">Django</a></div>
+            </div>
+    </div>
+</div>
+{% endblock content %}
