@@ -14,7 +14,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: rgb(21, 21, 235);
+        background: linear-gradient(45deg, #0b2dd6, #6610f2,#ff7b00);
         font-size: 2em;
         color: white;
         padding: 10px;
@@ -35,6 +35,9 @@ body{
             font-weight: bold;
         }
         
+    }
+    .main1:hover{
+        background: linear-gradient(45deg, #ff7b00, #6610f2, #0b2dd6);
     }
 
     .main2{
@@ -88,17 +91,17 @@ body{
         }
         .project{
             width: 300px;
-            background: #ddd;
+            background: #ada5a5;
             border-radius: 8px;
             overflow: hidden;
             cursor: pointer;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 10 10px 10px rgba(120, 113, 113, 0.1);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             text-align: center;
         }
         .project:hover{
             transform: scale(1.05);
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 15px rgba(228, 221, 221, 0.2);
         }
         .project img{
             width: 100%;
@@ -136,14 +139,16 @@ body{
 }
 
 footer{
-    background-color: blue;
+    background: linear-gradient(45deg, #0b2dd6, #6610f2,#ff7b00);
     height: 50px;
     display: block;
     text-align: center;
     align-content: center;
     padding: 10px;
 }
-
+footer:hover{
+    background: linear-gradient(45deg,#ff7b00, #6610f2, #0b2dd6);
+}
 
 
 

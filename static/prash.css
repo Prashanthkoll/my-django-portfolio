@@ -1,0 +1,886 @@
+* {
+    margin: 0%;
+    padding: 0%;
+   
+}
+.nav {
+    width: 100%;
+    height: 90px;
+    /* background-color:blue ; */
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.navin {
+    width: 80%;
+    height: 90px;
+    /* background-color:rgb(179, 255, 0) ; */
+    /* background-color: red; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.navin1 {
+    width: 40%;
+    height: 50px;
+    /* background-color:rgb(255, 153, 0) ;  */
+    /* background-color: transparent; */
+    /* background-image: url(asserts/pngwing.com.png);
+    background-position: center;
+    background-size: 100px 100px;
+    background-repeat: no-repeat; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.navin1 span {
+    width: 110px;
+    height: 50px;
+    background-image: url(./asserts/pngwing.com.png);
+    background-position: center;
+    background-size: 100px 110px;
+    background-repeat: no-repeat;
+    /* background-color: crimson; */
+}
+.navin2 {
+    width: 60%;
+    height: 50px;
+    /* background-color:rgb(151, 28, 116) ; */
+    /* background-color: rgb(205, 50, 151); */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.navin2 select {
+    border: 2px solid rgb(184, 180, 180);
+    color: aliceblue;
+    background-color: transparent;
+    padding: 8px 25px;
+    border-radius: 5px;
+}
+select option {
+    color: black;
+}
+.navin2 .sin {
+    width: 100px;
+    height: 35px;
+    background-color: orangered;
+    color: aliceblue;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.sin a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.s1 {
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(24, 16, 180); */
+    /* position: absolute; */
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-position: center;
+    background-image:url(./asserts/IN-en-20241008-TRIFECTA-perspective_b28b640f-cee0-426b-ac3a-7c000d3b41b7_large.jpg);
+}
+.s11{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(0, 255, 255); */
+    background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.8500) 3.000%,
+rgba(0, 0, 0, 0.8465) 11.08%, rgba(0, 0, 0, 0.8361) 19.17%,
+rgba(0, 0, 0, 0.8187) 27.25%, rgba(0, 0, 0, 0.7944) 35.33%, 
+rgba(0, 0, 0, 0.7632) 43.42%, rgba(0, 0, 0, 0.7250) 51.50%,
+rgba(0, 0, 0, 0.6868) 59.58%, rgba(0, 0, 0, 0.6556) 67.67%,
+rgba(0, 0, 0, 0.6313) 75.75%, rgba(0, 0, 0, 0.6139) 83.83%,
+rgba(0, 0, 0, 0.6035) 91.92%, rgba(0, 0, 0, 0.6000) 100.0%);
+
+}
+.sb{
+    width: 100%;
+    height: 500px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    /* background-color: blue; */
+}
+.sb .sb1{
+    width: 100%;
+    height: 250px;
+    /* background-color: rgb(200, 255, 0); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: aliceblue;
+}
+.sb1 .ch{
+    margin-bottom: 20px;
+    font: 16px;
+}
+.sb1 .ch h1{
+    font: 40px;
+}
+
+.sb .sb2{
+    width: 100%;
+    height: 100px;
+    /* background-color: rgb(0, 255, 17); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    
+}
+.sb2 .ch1{
+    width: 30%;
+    height: 50px;
+    background-color:transparent;
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    border: 2px solid rgb(137, 127, 127);
+}
+.ch1 p{
+    margin-left: 20px;
+}
+.sb2 .ch2 {
+    margin-left:10px ;
+}
+.ch2 button{
+    background-color: rgb(205, 56, 6);
+    color: aliceblue;
+    padding: 10px 15px;
+    border-color: orangered;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.s2{
+    width: 100%;
+    height: 10vh;
+    background-color:black;
+}
+.line {
+    width: 100%;
+    height: 10vh; 
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+    border-top-left-radius: 50% 100px;
+    border-top-right-radius: 50% 100px; 
+    border-top: 5px solid red;
+    background-color:transparent;
+}
+.all{
+    width: 100%;
+    height: 350vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: rgb(255, 72, 0); */
+}
+.all .pad_all{
+    width: 80%;
+    height: 350vh;
+    /* background-color: rgb(70, 17, 192); */
+    display: flex;
+    flex-direction: column;
+}
+.all .pad_all .par{
+    width: 100%;
+    height: 350vh;
+    /* background-color: rgb(255, 127, 210); */
+    display: flex;
+    flex-direction: column;
+}
+.par .ch1{
+    width: 100%;
+    height: 70vh;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.ch1 .ch11{
+    margin-top: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    height: 50px;
+    /* background-color: aqua; */
+}
+.ch11 .ch111{
+    width: 18%;
+    margin-top: 10px;
+    /* background-color: yellow; */
+    align-items: start;
+    display: flex;
+    justify-content: start;
+}
+.ch111 select{
+    padding: 5px 15px;
+    color: whitesmoke;
+    background-color: transparent;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.ch112{
+    width: 20%;
+    margin-top: 10px;
+    /* background-color: blueviolet; */
+    align-items: start;
+    display: flex;
+}
+.ch112 select{
+    padding: 5px 15px;
+    color: whitesmoke;
+    background-color: transparent;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+.par .ch1 .h2{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font:24px;
+    color: rgb(255, 255, 255);
+    /* background-color: aqua; */
+}
+
+.i {
+    width: 100%;
+    height: 330vh;
+    overflow: hidden;
+    position: relative;
+    /* background-color: aqua; */
+}
+
+.i .iul {
+    width: 100%;
+    height: 330px;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none; /* For Firefox */
+    /* background-color: yellow; */
+    align-items: center;
+}
+  
+.iul::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari */
+}
+  li h1{
+    /* line-height: 5; */
+    display: inline-block;
+    height: 1em;
+    position:absolute;
+    font-weight: 700;
+    color: rgb(20, 17, 17);
+    -webkit-text-stroke: 0.25rem rgb(255, 255, 255);
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+    font-size: 5rem;
+    left: -0.5rem;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  
+  }
+  .iul li {
+    flex-shrink: 0;
+    width: 184px; /* 4 images visible at a time with space */
+    height: 280px;
+    margin-right: 10px;
+    margin-left: 10px;
+    scroll-snap-align: start;
+    background-size:cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+    background-repeat: no-repeat;
+    position: relative;
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    text-align: start;
+    border-radius: 10px;
+    /* background-color: blue; */
+    
+  }
+  
+  .iul li:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    cursor: pointer;
+  }
+  
+  /* Individual image backgrounds */
+  .i .iul .c1 {
+    background-image: url(./asserts/a1.webp);
+  }
+  .i .iul .c2 {
+    background-image: url(./asserts/a2.webp);
+  }
+  .i .iul .c3 {
+    background-image: url(./asserts/a3.webp);
+  }
+  .i .iul .c4 {
+    background-image: url(./asserts/a4.webp);
+  }
+   .i .iul .c5 {
+    background-image: url(./asserts/a5.webp);
+  }
+  .i .iul .c6 {
+    background-image: url(./asserts/a6.webp);
+  }
+  .i .iul .c7 {
+    background-image: url(./asserts/a7.webp);
+  }
+  .i .iul .c8 {
+    background-image: url(./asserts/a8.webp);
+  }
+.i .iul .c9 {
+    background-image: url(./asserts/a9.webp);
+}
+.i .iul .c10 {
+    background-image:  url(./asserts/a10.webp);
+}
+.par .ch2{
+    width: 100%;
+    height: 60vh;
+    /* background-color: rgb(153, 42, 165); */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.par .ch2 .h2{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: rgb(255, 255, 255);
+    /* background-color: aqua; */
+}
+.gr{
+    width: 100%;
+    height: 330px;
+    /* background-color: rgb(255, 0, 157); */
+    /* background-color: black; */
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    text-align: start;
+    column-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: aliceblue;
+  }
+.gr .grc{
+    /* background-color: blue; */
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+}
+  
+.gr .grc h2{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+.gr .grc p{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.grc .aa{
+    width: 50px;
+    height: 50px;
+    /* background-color: chartreuse; */
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+}
+.grc .aa .aa1{
+    width: 50px;height: 50px;
+    background-image: url(./asserts/new4.png);
+    background-size: 50px 50px;
+
+}
+.grc .aa .aa2{
+    width: 50px;height: 50px;
+    background-image: url(./asserts/new2.png);
+    background-size:50px 50px;
+    /* background-position: center; */
+
+}
+.grc .aa .aa3{
+    width: 50px;height: 50px;
+    background-image: url(./asserts/sc1.png);
+    background-size: 50px 80px;
+
+}
+.grc .aa .aa4{
+    width: 50px;height: 50px;
+    background-image: url(./asserts/new1.png);
+    background-size: 50px 50px;
+
+}
+.par .ch3{
+    width: 100%;
+    height: 120vh;
+    /* background-color: rgb(54, 42, 165); */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+.par .ch3 .h2{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: rgb(255, 255, 255);
+    /* background-color: aqua; */
+}
+
+.container {
+    width: 100%;
+    margin-top: 10px;
+    /* background-color: aquamarine; */
+    flex-direction: column;
+    display: flex;
+    text-align: start;
+    color: aliceblue;
+   
+
+}
+
+details {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    list-style: none;
+    background-color: #333;
+    padding: 25px;
+    display: block;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+summary:hover{
+    background-color: #8e8585;
+}
+summary::after {
+    content: "+";
+    font-size: 40px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease;
+}
+details[open] summary::after {
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.content {
+    font-size: 16px;
+    color: #ccc;
+    background-color: #333;
+    padding: 25px;
+    margin-top: 10px;
+
+}
+.par .ch4{
+    width: 100%;
+    height: 20vh;
+    /* background-color: rgb(9, 255, 0); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:5px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.ch4 p{
+    padding: 10px;
+    color: aliceblue;
+}
+.both{
+    width: 100%;
+    /* background-color: rgb(0, 195, 255); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+.both .e{
+    border: 2px solid rgb(222, 209, 209);
+    height: 60px;
+    width:40%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* background-color: aquamarine; */
+    background-color: transparent;
+    margin-right: 10px;
+}
+.both .b button{
+    background-color: orangered;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.ch5{
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    color: aliceblue;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.list{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    /* background-color: brown; */
+    margin-top: 40px;
+}
+.list ul{
+    display: grid;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    grid-template-columns: repeat(4,1fr);
+    list-style: none;
+}
+.list ul li{
+    width: 250px;
+    margin-bottom: 20px;
+}
+.list ul a{
+    color: aliceblue;
+    /* background-color: aqua; */
+}
+.par .ch6 {
+    width: 100%;
+    height: 60px;
+    /* background-color: aqua; */
+    display: flex;
+    margin-top: 30px;
+}
+
+.ch6 select{
+    background-color: transparent;
+    padding: 0px 0px;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color:aliceblue;
+
+    
+}
+.par .ch7 {
+    width: 100%;
+    height: 60px;
+    /* background-color: aqua; */
+    display: flex;
+    margin-top: 30px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: aliceblue;
+    
+}
+
+@media (max-width:1030px) {
+    .par .ch2{
+        height: 75vh;
+    }
+    .gr{
+        grid-template-columns: repeat(2,1fr);
+        height: 440px;
+        margin-top: 15px;
+
+    }
+    .gr .grc{
+        height: 200px;
+        margin-top: 10px;
+    }
+    .list ul{
+        grid-template-columns: repeat(3,1fr);
+    }
+    details {
+        margin: 5px 0;
+        font-size: 20px;
+    }
+    .content {
+        font-size: 10px;
+        color: #ccc;
+        background-color: #333;
+        padding: 20px;
+        margin-top: 8px;
+    
+    }
+    .all{
+        height: 370vh;
+    }
+    .all .pad_all{
+        height: 370vh;
+    }
+    .all .pad_all .par{
+        height: 370vh;
+    }
+  }
+   
+@media (max-width:960px) {
+    /* .par .ch1{
+        height: 70vh;
+    } */
+
+    .ch1 .ch11{
+        flex-direction: column;
+        height: 100px;
+    }
+    .ch11 .ch111{
+        width: 100%;
+    }
+    .ch111 select{
+        width: 100%;
+    }
+    .ch11 .ch112{
+        width: 100%;
+    }
+    .ch112 select{
+        width: 100%;
+    }
+    .i {
+        width: 100%;
+        height: 250px;
+      }
+      
+    .i .iul {
+        width: 100%;
+        height: 250px;
+      }
+    .iul li {
+        width: 130px; 
+        height: 180px;
+        background-size:130px 180px ;
+      }
+    .par .ch2{
+        height: 119vh;
+    }
+    
+    .gr{
+        grid-template-columns: repeat(1,1fr);
+        height:700px;
+    }
+    .gr .grc{
+        height: 165px;
+    }
+    .par .ch4{
+        height: 30vh;
+    }
+    .all{
+        height: 430vh;
+    }
+    .all .pad_all{
+        height: 430vh;
+    }
+    .all .pad_all .par{
+        height: 430vh;
+    }
+}
+
+@media (max-width:900px) {
+    .i {
+      width: 100%;
+      height: 200px;
+    }
+    
+    .i .iul {
+      width: 100%;
+      height: 200px;
+    }
+    
+    .iul li {
+      width: 100px; 
+      height: 150px;
+      background-size:100px 150px ;
+      
+    }
+    .both{
+        flex-direction: column;
+    }
+    .both .e{
+        height: 50px;
+        width:80%;
+        margin-right: 0px;
+    }
+    .both .b button{
+        border-radius: 5px;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .list ul{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .all{
+        height: 450vh;
+    }
+    .all .pad_all{
+        height: 450vh;
+    }
+    .all .pad_all .par{
+        height: 450vh;
+    }
+    
+  }
+ 
+@media (max-width:850px){
+    .sb{
+        height: 450px;
+    }
+    .sb1{
+        height: 300px;
+    }
+   
+    .sb2{
+        flex-direction: column;
+        height: 150px;
+    }
+
+    .sb2 .ch1{
+        width: 50%;
+        margin-bottom: 10px;
+        
+    }
+    
+    .s2{
+        height: 7vh;
+        background-color:black;
+    }
+    .line {
+        height: 7vh; 
+        background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+        border-top-left-radius: 50% 100px;
+        border-top-right-radius: 50% 100px; 
+        border-top: 5px solid red;
+        background-color:transparent;
+    }
+   
+}
+
+@media (max-width:580px){
+    .gr .grc h2{
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        font-size: 20px;
+        
+      }
+    .gr .grc p{
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        font-size: 15px;
+        
+      }
+    .list ul{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .par .ch3{
+        height: 140vh;
+    }
+    .all{
+        height: 490vh;
+    }
+    .all .pad_all{
+        height: 490vh;
+    }
+    .all .pad_all .par{
+        height: 490vh;
+    }
+    
+ 
+} 
+
+@media (max-width:460px) {
+    .navin{
+        flex-direction: column;
+    }
+    .navin2 select {
+        padding: 8px 15px;
+    }
+    .navin2{
+        /* flex-direction: column; */
+        width: 75%;
+        margin-top: 5px;
+    }
+    .sb2 .ch1{
+        width: 80%;
+    }
+    .s2{
+        height: 5vh;
+
+    }
+    .par .ch2{
+        height: 140vh;
+    }
+    .gr .grc h2{
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        font-size: 15px;
+        
+    }
+    .gr .grc p{
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        font-size: 12px;
+        
+    }
+    .ch3 .h2{
+        font-size: 20px;
+        
+    }
+    .par .ch4{
+        height: 50vh;
+    }
+
+}
+@media (max-width:400px) {
+    .all{
+        height: 520vh;
+    }
+    .all .pad_all{
+        height: 520vh;
+    }
+    .all .pad_all .par{
+        height: 520vh;
+    }
+    
+}

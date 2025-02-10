@@ -1,0 +1,745 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bgi {
+    width: 100%;
+    height: 650px;
+    background-image: url(./asserts/shadback.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bgi .nav {
+    padding: 17px 0 0;
+    margin: 0;
+    color: #fff;
+    border-color: #e7e7e7;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif !important;
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+
+.bgi .nav .navout {
+    width: 40%;
+    height: 40px;
+    /* background-color: blue; */
+    background-image: url(./asserts/home-logo.png);
+    background-size: 100px 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.bgi .nav .navin {
+    width: 60%;
+    height: 40px;
+    /* background-color: aqua; */
+    display: flex;
+
+}
+
+.navin ul {
+    width: 100%;
+    height: 40px;
+    /* background-color:red ; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navin ul li {
+    font-size: 20;
+    /* background-color: aqua; */
+    color: #e7e7e7;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+
+}
+
+.navin ul li a {
+    display: flex;
+}
+
+.navin ul li h1 {
+    width: 30px;
+    height: 30px;
+    background-image: url(./asserts/help3.png);
+    background-size: 30px 30px;
+}
+
+.text {
+    width: 100%;
+    height: 380px;
+    /* background-color: aqua; */
+    justify-content: center;
+    text-align: center;
+    align-items: end;
+    display: flex;
+
+}
+
+.text .textin {
+    /* background-color: blue; */
+    font-size: 30px;
+    color: #e7e7e7;
+}
+
+.con {
+    width: 100%;
+    height: 170px;
+    /* background-color: aqua; */
+    display: grid;
+    margin-top: 10px;
+    /* margin: 40px 50px; */
+    grid-template-columns: repeat(5, 0fr);
+    align-items: stretch;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #424242;
+    overflow: hidden;
+    margin: 10px 0px 0px 0px;
+    justify-content: center;
+    /* padding: 15px 30px 0px; */
+    /* flex-direction: column; */
+}
+
+.con1 {
+    width: 100%;
+    /* height: 170px; */
+    /* border: 1px solid black;
+    background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: left;
+    /* font-size: 15px; */
+    color: #e7e7e7;
+    align-items: stretch;
+    justify-content: center;
+    align-items: start;
+    /* margin-left: 20px; */
+}
+
+.head {
+    margin: 0px 0px 5px;
+    font: 14px Roboto, sans-serif;
+
+}
+
+.headin {
+    margin: 0px 26px 0px 0px;
+    font: 14px Roboto, sans-serif;
+    color: #e7e7e7;
+
+}
+
+.headin1 {
+    margin: 0px 26px 0px 0px;
+    font: 16px Roboto, sans-serif;
+    color: #B1B3B9;
+}
+
+.con1 .btn {
+    color: aliceblue;
+    background-color: #00BCD5;
+    width: 100px;
+    font: 1em sans-serif;
+    padding: 10px 40px;
+    text-align: center;
+}
+
+.Find {
+    width: 100%;
+    height: 80px;
+    font: 14px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.Find .Findin {
+    width: 100%;
+    height: 20px;
+    font: 35px Raleway, sans-serif;
+    color: #FF5A60;
+}
+
+.s2 {
+    width: 100%;
+    height: 60vh;
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: stretch;
+}
+
+.s2 .s2in {
+    /* width: 33%; */
+    /* background-color:white;
+    border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.s2 .s2in .s2in1 {
+    width: 133px;
+    height: 148px;
+    /* background-color: blue; */
+    background-image: url(./asserts/shaad2.png);
+    background-size: 133px 900px;
+    background-repeat: no-repeat;
+
+
+}
+
+.s2 .s2in .s2in1:hover {
+    background-position: 0px -150px;
+}
+
+.s2 .s2in .s2in2 {
+    margin-top: 40px;
+
+}
+
+.s2 .s2in .s2in3 {
+    width: 133px;
+    height: 148px;
+    /* background-color: blue; */
+    background-image: url(./asserts/shaad2.png);
+    background-size: 133px 900px;
+    background-position: 0px -296px;
+    background-repeat: no-repeat;
+
+}
+
+.s2 .s2in .s2in3:hover {
+    background-position: 0px -446px;
+
+}
+
+.s2 .s2in .s2in5 {
+    width: 133px;
+    height: 148px;
+    /* background-color: blue; */
+    background-image: url(./asserts/shaad2.png);
+    background-size: 133px 900px;
+    background-position: 0px -594px;
+    background-repeat: no-repeat;
+
+}
+
+.s2 .s2in .s2in5:hover {
+    background-image: url(./asserts/shaad2.png);
+    background-position: 0px -744px;
+}
+
+.you {
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    background-color: #FF5A60;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+
+
+}
+
+.you .you1 {
+    width: 35%;
+    height: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 30px sans-serif;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.you .you2 {
+    width: 20%;
+    height: 50px;
+    border: 2px solid whitesmoke;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font: 30px sans-serif;
+}
+
+.sear {
+    width: 100%;
+    height: 20vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font: 30px sans-serif;
+    color: #FF5A60;
+}
+
+.B {
+    width: 100%;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    /* background-color: aqua; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    column-gap: 20px;
+
+
+}
+
+.B .B1 {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    /* border: 2px solid black;
+    background-color: blue; */
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.B .B1 .b1 {
+    font: 20px sans-serif;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.B .B1 .b2 {
+    font: 15px sans-serif;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.ot {
+    width: 100%;
+    height: 150px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.ot1 {
+    width: 150px;
+    /* background-color: blue; */
+}
+
+.ot2 {
+    width: 400px;
+
+}
+
+.dow {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.do1 {
+    color: #FF5A60;
+    font: 25px sans-serif;
+    width: 300px;
+    height: 50px;
+    /* background-color: bisque; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ga {
+    width: 25%;
+    height: 60px;
+    /* background-color: rgb(115, 0, 255); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.go {
+    width: 110px;
+    height: 100px;
+    background-image: url(./asserts/google-play-badge\ \(1\).svg);
+    background-size: 110px 110px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+}
+
+.ap {
+    width: 110px;
+    height: 100px;
+    background-image: url(./asserts/ios-store\ \(1\).svg);
+    background-size: 110px 110px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-color: #FF5A60; */
+}
+
+.footer {
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(0, 255, 68); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer .s {
+    width: 84px;
+    height: 84px;
+    background-image: url(./asserts/sprite-SS.png);
+    background-size: 84px 84px;
+    background-repeat: no-repeat;
+    /* background-color: aqua;    */
+
+}
+
+.spp {
+    width: 80%;
+    color: rgba(0, 0, 0, 0.5);
+    height: 30vh;
+    /* background-color: brown; */
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nri {
+    text-decoration: none;
+    /* background-color: aliceblue; */
+    width: 60%;
+    height: 5vh;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.last0 {
+    width: 100%;
+    height: 100px;
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.last {
+    width: 30%;
+    /* background-color:red; */
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sf41 {
+    width: 30px;
+    height: 30px;
+    background-image: url(./asserts/sprite-man.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    margin-right: 10px;
+}
+
+.sf42 {
+    width: 30px;
+    height: 30px;
+    background-image: url(./asserts/sprite-tick.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    margin-right: 10px;
+}
+
+.sf43 {
+    width: 30px;
+    height: 30px;
+    background-image: url(./asserts/sprite-lock.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    margin-right: 10px;
+}
+
+.sf4 {
+    margin-right: 30px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.D {
+    width: 100%;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    /* background-color: aqua; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    column-gap: 10px;
+
+
+}
+
+.D .D1 {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    /* border: 2px solid black;*/
+    /* background-color: blue;  */
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.D .D1 .d1 {
+    font: 20px sans-serif;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.D .D1 .d2 {
+    font: 15px sans-serif;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.ff {
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.ff1 {
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    /* background-color: aqua; */
+}
+
+@media (max-width :850px) {
+    .con {
+        grid-template-columns: repeat(3, 0fr);
+    }
+
+    .p {
+        grid-column: span 2;
+    }
+
+    .con1 .btn {
+        width: 252px;
+    }
+
+    .Find .Findin {
+        font: 19px Raleway, sans-serif;
+    }
+
+    .you {
+        flex-direction: column;
+        height: 30vh;
+    }
+
+    .you .you1 {
+        font: 15px sans-serif;
+        height: 60px;
+    }
+
+    .you .you2 {
+        font: 15px sans-serif;
+        height: 70px;
+        width: 70px;
+        border: 1px solid whitesmoke;
+    }
+
+    .B {
+        grid-template-columns: repeat(1, 0fr);
+        height: 90vh;
+    }
+
+    .dow {
+        flex-direction: column;
+    }
+
+    .ga {
+        width: 50%;
+    }
+
+    .go {
+        background-size: 90px 90px;
+    }
+
+    .ap {
+        background-size: 90px 90px;
+    }
+
+    .last0 {
+        flex-direction: column;
+        height: 200px;
+    }
+
+    .sf41 {
+        width: 20px;
+        height: 20px;
+        background-size: 20px 20px;
+    }
+
+    .sf42 {
+        width: 20px;
+        height: 20px;
+        background-size: 20px 20px;
+    }
+
+    .sf43 {
+        width: 20px;
+        height: 20px;
+        background-size: 20px 20px;
+    }
+
+    .nri {
+        height: 20vh;
+    }
+
+    .D {
+        grid-template-columns: repeat(2, 0fr);
+        height: 60vh;
+
+    }
+
+
+}
+
+@media (max-width :720px) {
+    .con {
+        grid-template-columns: repeat(2, 0fr);
+    }
+
+    .p {
+        grid-column: span 2;
+    }
+
+    .con1 .btn {
+        width: 260px;
+    }
+
+    .s2 {
+        grid-template-columns: repeat(1, 1fr);
+        height: 150vh;
+    }
+
+    .sear {
+        height: 13vh;
+        font: 19px sans-serif;
+    }
+
+    .ot {
+        height: 190px;
+    }
+
+    .go {
+        background-size: 60px 60px;
+    }
+
+    .ap {
+        background-size: 60px 60px;
+    }
+
+    .last0 {
+        flex-direction: column;
+    }
+
+    .sf41 {
+        width: 20px;
+        height: 20px;
+        background-size: 20px 20px;
+    }
+
+    .sf42 {
+        width: 20px;
+        height: 20px;
+        background-size: 20px 20px;
+    }
+
+    .sf43 {
+        width: 20px;
+        height: 20px;
+        background-size: 20px 20px;
+    }
+
+    .footer {
+        height: 150vh;
+    }
+
+    .spp {
+        height: 30vh;
+    }
+    .D {
+        display: none;
+    }
+
+}
+
+@media (max-width :570px) {
+    .spp {
+        height: 50vh;
+    }
+}

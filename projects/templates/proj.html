@@ -4,20 +4,31 @@
 <div class="container">
     <div class="section">
         <div class="projects">
-            <div class="project" >
+            <a href="https://portfolio-html-css-js1.netlify.app/project/home.html" target="_blank"><div class="project" >
                 <img src="{% static 'asserts/safe.png' %}" alt="Safeguarding Journeys">
                 <b>Safeguarding Journeys:<br>Raspberry Pi Driver Monitoring</b>
-            </div>
-            <div class="project">
+            </div></a>
+            <a href="{% url 'shadi' %}" target="_blank"><div class="project">
                 <img src="{% static 'asserts/shadi.png' %}" alt="Shaadi Homepage">
                 <b>Shaadi.com Homepage:<br>Responsive Web Design</b>
-            </div>
-            <div class="project">
+            </div></a>
+            <a href="{% url 'netf' %}" target="_blank"><div class="project">
                 <img src="{% static 'asserts/netflix.png' %}" alt="Netflix Homepage">
                 <b>Netflix Homepage:<br>Responsive Web Design</b>
-            </div>
+            </div></a>
+            <a href="https://Prashanthkolla.pythonanywhere.com/" target="_blank"><div class="project">
+                <img src="{% static 'asserts/artical.jpg' %}" alt="Artical Project">
+                <b>Artical Project:<br>Using Django</b>
+            </div></a>
+            <a href="https://prashanth3.pythonanywhere.com/" target="_blank"><div class="project">
+                <img src="{% static 'asserts/studentManagement.jpg' %}" alt="Student Management System">
+                <b>Student Management System:<br>using Django</b>
+            </div></a>
+            <a href="https://portfolio-html-css-js1.netlify.app/" target="_blank"><div class="project">
+                <img src="{% static 'asserts/PortfolioWeB.jpg' %}" alt="Portfolio HCJS">
+                <b>Portfolio :<br>using (HTML, CSS, and JavaScript)</b>
+            </div></a>
         </div>
     </div>
 </div>
-
 {% endblock content %}

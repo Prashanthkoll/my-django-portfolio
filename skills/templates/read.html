@@ -4,11 +4,11 @@
 <div class="container">
     <div class="section">
         <h1>{{record.title}}</h1>
-        <ul>
-            {% for item in record.Info %}
-                <li>{{ item.point }}</li>
+        <ol>
+            {% for i in re %}
+                <li>{{i}}</li>
             {% endfor %}
-        </ul>
+        </ol>
     </div>
 </div>
 {% endblock content %}
